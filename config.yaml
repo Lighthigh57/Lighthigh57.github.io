@@ -6,6 +6,8 @@ theme: hugo-profile
 Paginate: 3
 disqusShortname: gurusabarish
 googleAnalytics: G-DWJJVE27WD
+publishDir: "docs"
+canonifyurls: true
 
 markup:
   goldmark:
