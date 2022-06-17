@@ -5,7 +5,6 @@ theme: hugo-profile
 
 Paginate: 3
 disqusShortname: gurusabarish
-googleAnalytics: G-DWJJVE27WD
 publishDir: "docs"
 canonifyurls: true
 
@@ -21,24 +20,6 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-
-    #Dropdown menu
-    - identifier: dropdown
-      title: Example dropdown menu
-      name: Dropdown
-      weight: 2
-    - identifier: dropdown1
-      title: example dropdown 1
-      name: example 1
-      url: /#
-      parent: dropdown
-      weight: 1
-    - identifier: dropdown2
-      title: example dropdown 2
-      name: example 2
-      url: /#
-      parent: dropdown
-      weight: 2
 
 params:
   title: "LightLuke PortForio"
@@ -105,9 +86,6 @@ params:
           url: https://github.com/Lighthigh57
         - icon: fab fa-twitter
           url: https://twitter.com/Lighthigh57
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
 
   # About
   about:
@@ -123,11 +101,12 @@ params:
       title: "勉強してたり使っていたりするツール・言語:"
       items:
         - "HTML"
-        - "CSS"
+        - "Unity"
         - "JavaScript"
         - "React"
-        - "Node"
-        - "Express"
+        - "C#"
+        - "Java"
+        - "etc..."
 
   # Experience
   experience:
@@ -143,101 +122,22 @@ params:
           url: "https://example.com"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
   # Education
   education:
     enable: true
     # index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "Junior High School"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          name: "札幌日本大学中学校"
+          url: "https://www.sapporonichidai.ed.jp/junior/"
         featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
@@ -255,7 +155,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
