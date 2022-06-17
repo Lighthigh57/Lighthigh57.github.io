@@ -147,11 +147,6 @@ params:
       - title: Hugo Profile
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
 
   # projects
   projects:
@@ -206,14 +201,12 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: shuntan125@gmail.com
     btnName: Mail me
 
   footer:
     # recentPosts: false
     socialNetworks:
       github: https://github.com
-      linkedin: https://linkedin.com
       twitter: https://twitter.com
       instagram: https://instagram.com
-      facebook: https://facebook.com
