@@ -55,10 +55,10 @@ params:
   #     secondaryColor:
 
   # If you want to customize the menu, you can change it here
-   navbar:
-     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-     brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-     brandName: "Lightluke" # Brand name for the brand | default is the title variable
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandName: "Lightluke" # Brand name for the brand | default is the title variable
 
   #   menus:
   #     disableAbout: true
