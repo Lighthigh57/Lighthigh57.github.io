@@ -110,7 +110,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     items:
       - job: "Senior Software Developer"
         company: "Facebook"
@@ -124,13 +124,13 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # index: true
     items:
       - title: "Junior High School"
         school:
-          name: "札幌日本大学中学校"
-          url: "https://www.sapporonichidai.ed.jp/junior/"
+          name: " "
+          url: " "
         featuredLink:
           enable: false
           url: "https://example.com"
