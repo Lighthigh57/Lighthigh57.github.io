@@ -201,12 +201,10 @@ params:
   contact:
     enable: false
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: shuntan125@gmail.com
+    email: exsample
     btnName: Mail me
 
   footer:
-    # recentPosts: false
     socialNetworks:
       github: https://github.com
       twitter: https://twitter.com
-      instagram: https://instagram.com
