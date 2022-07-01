@@ -73,7 +73,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "LightLuke."
-    subtitle: ""
+    subtitle: "I'm learning some skills."
     content: "I'm making game and work for my school club project."
     image: /images/hero.svg
     button:
